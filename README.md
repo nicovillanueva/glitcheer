@@ -4,7 +4,7 @@ Simple, it glitches images.
 
 For now only supports JPEG compressed images (technically, it works on BMP too, but doesn't do much on them). The PNG format is a bitch to work on.
 
-It takes random bytes from the image, and places it in some other random position. I tried not to touch the headers, but it fails sometimes.
+It takes random bytes from the image, and places them in some other random positions. I tried not to touch the headers, but it fails sometimes.
 
 The second parameter is the amount of pixels that will be moved. Notice that if it's too high, the image just breaks (Huffman tables just blow up).
 
