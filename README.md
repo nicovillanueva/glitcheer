@@ -10,4 +10,10 @@ The second parameter is the amount of pixels that will be moved. Notice that if 
 
 "Too high" depends on the image size. For an image of 640x640px, 60 pixels seems the limit (the image breaks most of the time, but it sometimes renders correctly)
 
-`./glitchy.py samples/samp1.jpg 50 --output outputimage.jpg`
+## Requirements
+
+- Python 3
+
+## How to run
+
+`./glitchy.py {target\_file} {bytes\_to\_move} --output {output\_file\_(optional)}
