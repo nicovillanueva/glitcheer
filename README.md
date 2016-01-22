@@ -16,4 +16,4 @@ The second parameter is the amount of pixels that will be moved. Notice that if 
 
 ## How to run
 
-`./glitchy.py {target\_file} {bytes\_to\_move} --output {output\_file\_(optional)}
+`./glitchy.py {targetFile} {bytesToMove} --output {outputFile(optional)}`
